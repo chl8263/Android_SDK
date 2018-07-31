@@ -28,6 +28,12 @@
         </activity>
         <activity android:name=".SesondActivity" />
         <activity android:name=".FragmentActivity"></activity>
+        <service android:name=".MyServiece"/>
+        <service android:name=".ServiceBind"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_background"
+            />
     </application>
 
 </manifest>
